@@ -5,7 +5,11 @@ for param in "$@"
 do
 	if [ "$param" != "$1" -a "$param" != "$2" ]
 	then
-		find -name "*$param" >&- 2>&- -exec cp '{}' $1 \;
+		files = find -name "*$param"
+		for file in files
+		do
+			cp file $1
+		done
 	fi
 done
 
