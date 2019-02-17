@@ -6,7 +6,7 @@ for param in "$@"
 do
 	if [ "$param" != "$1" -a "$param" != "$2" ]
 	then
-		find -name "*$param" >&- 2>&- -exec cp '{}' $1 \;
+		find -name "*$param" >&- 2>&- -exec cp --backup=numbered '{}' $1 \;
 	fi
 done
 
