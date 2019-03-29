@@ -1,0 +1,5 @@
+/home/zhukovp0101/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6183.77/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/zhukovp0101/Загрузки/Game.2
+-- Found SFML 2.4.2 in /usr/include
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/zhukovp0101/Загрузки/Game.2
