@@ -1,0 +1,2 @@
+{"Skeleton1": {"Type": "Skeleton", "Configs_": {"Shape": ["Rectangle"]}},
+ "Skeleton2": {"Type": "Witch", "Configs_": {"Shape": ["Rectangle"]}}}

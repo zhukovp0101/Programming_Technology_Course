@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Game"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Libs\;CMake Files\Libs\SFML-2.5.1\;CMake Files\Libs\SFML-2.5.1\lib\;CMake Files\Libs\SFML-2.5.1\lib\cmake\;CMake Files\Libs\SFML-2.5.1\lib\cmake\SFML\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/zhuko/MyDocs/TP/structural_patterns/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/zhuko/MyDocs/TP/structural_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/zhuko/MyDocs/TP/structural_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/zhuko/MyDocs/TP/structural_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/zhuko/MyDocs/TP/structural_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Game">
+				<Option output="D:/zhuko/MyDocs/TP/structural_patterns/Game.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/zhuko/MyDocs/TP/structural_patterns"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Scene"/>
+					<Add directory="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Object"/>
+					<Add directory="D:/zhuko/MyDocs/TP/structural_patterns/Classes/GUI"/>
+					<Add directory="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Building"/>
+					<Add directory="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Unit"/>
+					<Add directory="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Tools"/>
+					<Add directory="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Scene/Level"/>
+					<Add directory="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Factories"/>
+					<Add directory="D:/zhuko/MyDocs/TP/structural_patterns/Classes"/>
+					<Add directory="D:/zhuko/MyDocs/TP/structural_patterns/Tests"/>
+					<Add directory="D:/zhuko/MyDocs/TP/structural_patterns/Libs/SFML-2.5.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/zhuko/MyDocs/TP/structural_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 Game"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/zhuko/MyDocs/TP/structural_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/zhuko/MyDocs/TP/structural_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/zhuko/MyDocs/TP/structural_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Game/fast">
+				<Option output="D:/zhuko/MyDocs/TP/structural_patterns/Game.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/zhuko/MyDocs/TP/structural_patterns"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Scene"/>
+					<Add directory="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Object"/>
+					<Add directory="D:/zhuko/MyDocs/TP/structural_patterns/Classes/GUI"/>
+					<Add directory="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Building"/>
+					<Add directory="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Unit"/>
+					<Add directory="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Tools"/>
+					<Add directory="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Scene/Level"/>
+					<Add directory="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Factories"/>
+					<Add directory="D:/zhuko/MyDocs/TP/structural_patterns/Classes"/>
+					<Add directory="D:/zhuko/MyDocs/TP/structural_patterns/Tests"/>
+					<Add directory="D:/zhuko/MyDocs/TP/structural_patterns/Libs/SFML-2.5.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/zhuko/MyDocs/TP/structural_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 Game/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/zhuko/MyDocs/TP/structural_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/zhuko/MyDocs/TP/structural_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/zhuko/MyDocs/TP/structural_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/zhuko/MyDocs/TP/structural_patterns/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/zhuko/MyDocs/TP/structural_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/zhuko/MyDocs/TP/structural_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/zhuko/MyDocs/TP/structural_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/zhuko/MyDocs/TP/structural_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/zhuko/MyDocs/TP/structural_patterns/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/zhuko/MyDocs/TP/structural_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/zhuko/MyDocs/TP/structural_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/zhuko/MyDocs/TP/structural_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/zhuko/MyDocs/TP/structural_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/Classes/BaseIncludes.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Building/Castle.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Building/Castle.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Building/IBuilding.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Building/IBuilding.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Factories/ItemFactory.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Factories/ItemFactory.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Factories/LevelFactory.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Factories/MenuFactory.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Factories/MenuFactory.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Factories/SceneFactory.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Factories/UnitFactory.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Factories/UnitFactory.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/Classes/GUI/Button.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/Classes/GUI/Button.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/Classes/GUI/IMenuItem.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/Classes/GUI/IMenuItem.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Object/IEventObject.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Object/IEventObject.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Object/ILivingObject.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Object/ILivingObject.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Object/IObject.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Object/IObject.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Scene/Level/Level.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Scene/Level/Level.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Scene/Level/Map.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Scene/Level/Map.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Scene/Menu.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Scene/Menu.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Scene/Scene.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Scene/Scene.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Tools/Parser.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Tools/Parser.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Unit/Skeleton.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Unit/Skeleton.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Unit/Unit.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Unit/Unit.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Unit/Witch.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/Classes/Unit/Witch.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/main.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/Libs/SFML-2.5.1/lib/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\Libs\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/Libs/SFML-2.5.1/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\Libs\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/Libs/SFML-2.5.1/lib/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Libs\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/Libs/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets-debug.cmake">
+			<Option virtualFolder="CMake Files\Libs\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/Libs/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets-release.cmake">
+			<Option virtualFolder="CMake Files\Libs\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="D:/zhuko/MyDocs/TP/structural_patterns/Libs/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets.cmake">
+			<Option virtualFolder="CMake Files\Libs\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
