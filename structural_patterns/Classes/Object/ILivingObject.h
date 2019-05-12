@@ -8,12 +8,18 @@
 
 class ILivingObject: public IDrawingObject {
 public:
-	explicit ILivingObject(sf::RenderWindow & window): IDrawingObject(window) {};
+	explicit ILivingObject(sf::RenderWindow & window, json & configs): IDrawingObject(window) {
+
+	};
+	explicit ILivingObject(sf::RenderWindow & window): IDrawingObject(window) {
+
+	};
 	virtual ~ILivingObject() = default;
 	virtual void Draw() override = 0;
 	virtual string GetInfo() const override {
 		return IDrawingObject::GetInfo() + ", ILivingObject";
 	};
+private:
 
 };
 

@@ -1,3 +1,0 @@
-D:/zhuko/MyDocs/TP/structural_patterns/cmake-build-debug/CMakeFiles/Game.dir
-D:/zhuko/MyDocs/TP/structural_patterns/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/zhuko/MyDocs/TP/structural_patterns/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,37 +1,41 @@
 {
-  "Items": {
-    "button2": {
-      "Type": "Button",
-      "Configs": {
-        "Shape": {
-          "Type": "Rectangle",
-          "Width": 100,
-          "Height": 20
-        },
-        "Color": {
-          "Red": 255,
-          "Green": 0,
-          "Blue": 0,
-          "Alpha": 255
-        },
-        "Position": {
-          "X": 100,
-          "Y": 100
-        },
-        "Text": {
-          "String": "Button",
-          "Font": "consola.ttf",
-          "Size": 40,
-          "Color": {
-            "Red": 0,
-            "Green": 255,
-            "Blue": 0,
-            "Alpha": 255
+  "Pages": {
+    "Main": {
+      "Items": {
+        "Run": {
+          "Type": "Button",
+          "Configs": {
+            "Shape": {
+              "Type": "Rectangle",
+              "Width": 100,
+              "Height": 20
+            },
+            "Color": {
+              "Red": 255,
+              "Green": 0,
+              "Blue": 0,
+              "Alpha": 255
+            },
+            "Position": {
+              "X": 300,
+              "Y": 300
+            },
+            "Text": {
+              "String": "Game",
+              "Font": "consola.ttf",
+              "Size": 40,
+              "Color": {
+                "Red": 0,
+                "Green": 255,
+                "Blue": 0,
+                "Alpha": 255
+              }
+            }
           }
         }
-      }
+      },
+      "BackGround": "background.jpg",
+      "Resources": "Resources/Scenes/Menu/resources/"
     }
-  },
-  "BackGround": "back_ground.png",
-  "Resources": "Resources/Scenes/Menu/resources/"
+  }
 }

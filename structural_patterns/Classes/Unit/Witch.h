@@ -7,17 +7,13 @@
 
 class Witch: public Unit {
 public:
-	Witch(sf::RenderWindow & window, json & configs): Unit(window) {};
+	Witch(sf::RenderWindow & window, json & configs);;
 
-	shared_ptr<Unit> Clone() const override {
-		return shared_ptr<Unit>(new Witch(*this));
-	};
+	shared_ptr<Unit> Clone() const override;;
 
 	void Draw() override {};
 
-	string GetInfo() const override {
-		return Unit::GetInfo() + ", Witch";
-	};
+	string GetInfo() const override;;
 };
 
 

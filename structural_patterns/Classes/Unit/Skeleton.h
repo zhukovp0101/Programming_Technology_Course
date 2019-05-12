@@ -7,17 +7,13 @@
 
 class Skeleton: public Unit {
 public:
-	Skeleton(sf::RenderWindow & window, json & configs): Unit(window) {};
+	Skeleton(sf::RenderWindow & window, json & configs);;
 
-	shared_ptr<Unit> Clone() const override {
-		return shared_ptr<Unit>(new Skeleton(*this));
-	};
+	shared_ptr<Unit> Clone() const override;;
 
 	void Draw() override {};
 
-	string GetInfo() const override {
-		return Unit::GetInfo() + ", Skeleton";
-	};
+	string GetInfo() const override;;
 };
 
 

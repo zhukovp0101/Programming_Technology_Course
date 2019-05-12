@@ -9,15 +9,13 @@
 
 class Unit: public ILivingObject {
 public:
-	explicit Unit(sf::RenderWindow & window) : ILivingObject(window) {};
+	explicit Unit(sf::RenderWindow & window);;
 
 	virtual shared_ptr<Unit> Clone() const = 0;
 
 	virtual void Draw() = 0;
 
-	string GetInfo() const override {
-		return ILivingObject::GetInfo() + ", Unit";;
-	};
+	string GetInfo() const override;;
 };
 
 

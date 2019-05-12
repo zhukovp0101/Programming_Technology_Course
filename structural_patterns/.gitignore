@@ -1,0 +1,7 @@
+.idea/
+example/
+cmake-build-debug/
+cmake-build-release/
+LinuxCMakeLists.txt
+
+

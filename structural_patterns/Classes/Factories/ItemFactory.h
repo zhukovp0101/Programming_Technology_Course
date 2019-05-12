@@ -5,24 +5,15 @@
 #include "IObject.h"
 #include "IMenuItem.h"
 #include "Button.h"
+#include "Text.h"
 #include "BaseIncludes.h"
 
 
 class ItemFactory: public IObject {
 public:
-	shared_ptr<IMenuItem> Create(sf::RenderWindow & window, json & item) const {
-		item["Configs"]["Resources"] = item["Resources"];
-		if (item["Type"] == "Button")
-			return shared_ptr<IMenuItem>(new Button(window, item["Configs"]));
-		else {
-			SetError("The type of the element " + string(item["Type"]) + " does not match any of the valid types");
-			return nullptr;
-		}
-	};
+	shared_ptr<IMenuItem> Create(sf::RenderWindow & window, json & item) const;;
 
-	string GetInfo() const override {
-		return IObject::GetInfo() + ", ItemFactory";
-	};
+	string GetInfo() const override;;
 };
 
 

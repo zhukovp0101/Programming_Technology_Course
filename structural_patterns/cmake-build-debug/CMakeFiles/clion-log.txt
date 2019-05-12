@@ -1,5 +1,0 @@
-C:\Users\zhuko\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\191.6183.77\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\zhuko\MyDocs\TP\structural_patterns
--- Found SFML 2.5.1 in D:/zhuko/MyDocs/TP/structural_patterns/Libs/SFML-2.5.1/lib/cmake/SFML
--- Configuring done
--- Generating done
--- Build files have been written to: D:/zhuko/MyDocs/TP/structural_patterns/cmake-build-debug

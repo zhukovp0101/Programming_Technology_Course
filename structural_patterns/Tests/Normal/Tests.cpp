@@ -32,7 +32,7 @@ TEST_F(Test, CheckUnit)
 
 TEST_F(Test, CheckMenu) {
 	for (int i = 1; i < 3; ++i) {
-		ASSERT_NO_THROW(menus.push_back(menu_factory.Create(app, normal_resources + "Scenes/Menu/" + to_string(i) + "/menu.txt")));
+		ASSERT_NO_THROW(menus.push_back(menu_factory.Create(app, normal_resources + "Scenes/IMenu/" + to_string(i) + "/menu.txt")));
 		EXPECT_FALSE(level_factory.Error());
 		for (int j = 0; j < 20; ++j) {
 			app.clear();

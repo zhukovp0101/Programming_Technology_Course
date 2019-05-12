@@ -8,7 +8,7 @@
 #include "Unit.h"
 #include "Parser.h"
 #include "Scene.h"
-#include "Menu.h"
+#include "IMenu.h"
 #include "Level/Level.h"
 #include "IObject.h"
 #include "ILivingObject.h"

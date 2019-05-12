@@ -1,0 +1,20 @@
+{
+  "Prototypes": {"WatchTower": {
+    "Improvements": [
+      {
+        "Texture": "WatchTower1.png",
+        "Height": 50,
+        "Width": 50,
+        "Health": 40,
+        "Bullet": {
+          "Damage": 50,
+          "Texture": "Bullet1.jpg"
+        }
+      }
+    ],
+    "Resources": "WatchTower/",
+    "SelectionMenu": "selection_menu.json"
+  }},
+  "Resources": "Resources/Towers/resources/"
+}
+    
