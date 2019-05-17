@@ -1,0 +1,43 @@
+{
+  "Pages": {
+    "Main": {
+      "Items": {
+        "Text": {
+          "Type": "Text",
+          "Configs": {
+            "Color": {
+              "Red": 255,
+              "Green": 0,
+              "Blue": 0,
+              "Alpha": 255
+            },
+            "Position": {
+              "X": 0,
+              "Y": 0,
+              "OnCenter": true
+            },
+            "ConstSize": true,
+            "Text": {
+              "Fields": [["Health", "0"], ["Level", "0"]],
+              "Font": "consola.ttf",
+              "Size": 20,
+              "Color": {
+                "Red": 0,
+                "Green": 255,
+                "Blue": 0,
+                "Alpha": 255
+              },
+              "BackGroundColor": {
+                "Red": 255,
+                "Green": 0,
+                "Blue": 0,
+                "Alpha": 255
+              }
+            }
+          }
+        }
+      },
+      "Resources": "Resources/Scenes/Menu/resources/"
+    }
+  }
+}

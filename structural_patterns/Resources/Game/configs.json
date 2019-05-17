@@ -1,0 +1,6 @@
+{
+  "Levels": {
+    "Level1": "Resources/Level/Level1/configs.json"
+  },
+  "InitialMenu": "Resources/Menu/initial_menu.json"
+}
