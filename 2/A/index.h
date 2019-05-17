@@ -1,0 +1,1 @@
+struct A_Class {int a = 0;};
